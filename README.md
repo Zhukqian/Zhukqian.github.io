@@ -54,12 +54,12 @@
 ```
 # Site settings
 title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
-description: "Hey"	   	   # 随便说点，描述一下
+SEOTitle: 朱坤乾的博客 | Kunqian Zhu's Blog		# SEO 标题
+description: "Every failure is leading towards success."	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: ""     # 你的github账号
+jianshu_username: ""  # 你的简书ID。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -92,7 +92,7 @@ tags:
 ### 侧边栏
 
 看右边:
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-side.png)
+![](https://zhukqian.github.io/zhukunqian//master/img/readme-side.png)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
@@ -152,7 +152,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 friends: [
     {
         title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        href: "https://zhukqian.github.io"
     },
     {
         title: "Apple",
