@@ -4,7 +4,7 @@ title:      "First blog"
 subtitle:   整理
 date:       2019-1-29
 author:     朱坤乾
-header-img: https://imgchr.com/i/kQTFtH
+header-img: /img/blog-bg-one.jpg
 catalog: true
 tags:
     - Sort
