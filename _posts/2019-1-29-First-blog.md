@@ -4,7 +4,7 @@ title:      "First blog"
 subtitle:   整理
 date:       2019-1-29
 author:     朱坤乾
-header-img: ![]https://github.com/Zhukqian/Zhukqian.github.io/blob/master/img/blog-bg-one.jpg
+header-img: ![](https://github.com/Zhukqian/Zhukqian.github.io/blob/master/img/blog-bg-one.jpg)
 catalog: true
 tags:
     - Sort
