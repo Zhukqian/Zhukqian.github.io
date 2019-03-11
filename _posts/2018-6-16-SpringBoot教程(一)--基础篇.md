@@ -156,7 +156,7 @@ public static void main(String[] args) {
 
    标识为启动类
    
-###  启动方式
+###  3.启动方式
 
 ####  1:SpringBoot启动方式1
    
