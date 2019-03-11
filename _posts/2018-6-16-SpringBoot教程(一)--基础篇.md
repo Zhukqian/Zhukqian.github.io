@@ -158,7 +158,7 @@ public static void main(String[] args) {
    
 ###  3.启动方式
 
-####  1:SpringBoot启动方式1
+####  3.1:SpringBoot启动方式1
    
    Springboot默认端口号为8080
    
@@ -178,7 +178,7 @@ public static void main(String[] args) {
 ```
    启动主程序，打开浏览器访问http://localhost:8080/index，可以看到页面输出Hello World
    
-####  2:SpringBoot启动方式2
+####  3.2:SpringBoot启动方式2
 
 @ComponentScan(basePackages = "com.itmayiedu.controller")---控制器扫包范围
 
@@ -194,7 +194,7 @@ public class App {
 ```
 添加一个注解,进行包扫描,然后启动
 
-####  3:SpringBoot启动方式3
+####  3.3:SpringBoot启动方式3
 
 打成jar包,然后java -jar  包名
 
