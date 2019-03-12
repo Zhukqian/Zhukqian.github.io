@@ -42,7 +42,7 @@ public class MiyaController {
 
 }
 
-``
+```
 
 启动工程，访问：localhost:8080/miya,浏览器显示：   zkq:12
 
