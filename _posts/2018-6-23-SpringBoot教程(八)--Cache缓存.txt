@@ -9,7 +9,7 @@ catalog: true
 tags:
     - SpringBoot
 ---
-本文介绍如何在springboot中使用默认的spring cache，
+本文介绍如何在springboot中使用默认的spring cache
 
 ##  声明式缓存
 
