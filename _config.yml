@@ -66,7 +66,7 @@ clientID: 7d13c1dd93e70b21bd8b                            #生成的clientID
 clientSecret: 797f5155a708f900c236a2d62ff96ebc34411003    #生成的clientSecret
 repo: Zhukqian.github.io    #仓库名称
 owner: Zhukqian    #github用户名
-admin: Zhukqian
+admin: [Zhukqian]
 distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
