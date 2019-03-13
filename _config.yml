@@ -59,11 +59,11 @@ kramdown:
 # Disqus（https://disqus.com/）
 # disqus_username: 
 
-Gitalk
+# Gitalk
 gitalk:
 enable: true    #是否开启Gitalk评论
-clientID: 7d13c1dd93e70b21bd8b                            #生成的clientID
-clientSecret: 797f5155a708f900c236a2d62ff96ebc34411003    #生成的clientSecret
+clientID: '7d13c1dd93e70b21bd8b'                            #生成的clientID
+clientSecret: '797f5155a708f900c236a2d62ff96ebc34411003'    #生成的clientSecret
 repo: Zhukqian.github.io    #仓库名称
 owner: Zhukqian    #github用户名
 admin: [Zhukqian]
@@ -74,7 +74,7 @@ distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: ""
 
 # Google Analytics
 # ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
