@@ -9,7 +9,6 @@ catalog: true
 tags:
     - SpringBoot
 ---
-
 本文介绍如何在springboot中使用默认的spring cache，
 
 ##  声明式缓存
@@ -70,7 +69,7 @@ public interface BookRepository {
 
 这个你可以写一个很复杂的数据查询操作，比如操作mysql、nosql等等。为了演示这个栗子，我只做了一下线程的延迟操作，当作是查询数据库的时间。
 
-实现接口类：
+###  实现接口类：
 
 ```
 
