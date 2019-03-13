@@ -9,8 +9,6 @@ catalog: true
 tags:
     - SpringBoot
 ---
-本文介绍如何在springboot中使用默认的spring cache
-
 ##  声明式缓存
 
 Spring 定义 CacheManager 和 Cache 接口用来统一不同的缓存技术。例如 JCache、 EhCache、 Hazelcast、 Guava、 Redis 等。在使用 Spring 集成 Cache 的时候，我们需要注册实现的 CacheManager 的 Bean。
