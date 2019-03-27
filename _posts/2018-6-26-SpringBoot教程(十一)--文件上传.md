@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "SpringBoot教程(十一)--redis缓存消息队列"
+title:      "SpringBoot教程(十一)--文件上传"
 subtitle:   SpringBoot
 date:       2018-6-26
 author:     朱坤乾
@@ -151,7 +151,7 @@ spring.http.multipart.max-request-size=128KB
 
 测试情况如图
 
-![])(https://upload-images.jianshu.io/upload_images/2279594-5f398faeb076e37e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/2279594-5f398faeb076e37e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
