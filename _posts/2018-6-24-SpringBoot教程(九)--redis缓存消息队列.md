@@ -24,11 +24,11 @@ tags:
 创建一个新的springboot工程，在其pom文件,加入spring-boot-starter-data-redis依赖：
 
 ```
-<dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
-
 
 ```
 
