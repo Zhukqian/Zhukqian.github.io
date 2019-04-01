@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "SpringBoot教程(十二)--整合ELK,搭建实时日志平台"
+title:      "SpringBoot教程(十四)--整合ELK,搭建实时日志平台"
 subtitle:   SpringBoot
 date:       2018-6-30
 author:     朱坤乾
