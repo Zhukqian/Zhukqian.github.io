@@ -9,7 +9,7 @@ catalog: true
 tags:
     - SpringCloud
 ---
-经过一连串的学习英语,终于慢慢了解了SpringCloud微服务框架,从今天开始慢慢地进行总结一下
+经过一连串的学习应用之后,终于慢慢了解SpringCloud微服务框架,从今天开始慢慢地一点一点的进行总结一下
 
 ##  一、spring cloud简介
 
