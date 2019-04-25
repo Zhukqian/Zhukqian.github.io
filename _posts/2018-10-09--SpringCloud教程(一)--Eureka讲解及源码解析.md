@@ -148,7 +148,7 @@ eureka server 是有界面的，启动工程,打开浏览器访问： http://loc
 
 >No application available 没有服务被发现 ……^_^ 因为没有注册服务当然不可能有服务被发现了。   当我们创建完client之后就会出现
 
-##  三、创建一个服务提供者 (eureka client)
+###  三、创建一个服务提供者 (eureka client)
 
 当client向server注册时，它会提供一些元数据，例如主机和端口，URL，主页等。Eureka server 从每个client实例接收心跳消息。 如果心跳超时，则通常将该实例从注册server中删除。
 
