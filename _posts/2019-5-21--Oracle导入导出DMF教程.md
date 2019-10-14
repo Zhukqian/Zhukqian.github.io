@@ -103,6 +103,34 @@ DROP USER 用户名 CASCADE
 ##  导出数据的两种方式
 
 
-参考:https://www.cnblogs.com/hanmk/p/7238713.html
 
-参考这个网站步骤来
+方法1::exp
+exp 账号/密码@192.168.xx.xx/sid file=D:\export\xx.dmp log=D:\export\gd_base.log full=y
+
+log导入导出日志
+
+file导出的dmp目录
+
+
+数据导出(根据需求分为三种)：
+
+1.完全导出
+
+exp weixin/weixin@localhost:1521/orcl buffer=64000 file=F:/weixin.dmp full='y'
+
+2.按用户导出
+
+exp weixin/weixin@localhost:1521/orcl buffer=64000 file=F:/weixin.dmp owner='weixin'
+
+3.按表导出
+
+exp weixin/weixin@localhost:1521/orcl buffer=64000 file=F:/weixin.dmp tables='AJBJ'
+
+###  说明
+
+1)EXP和IMP是客户端工具程序,它们既可以在可以客户端使用,也可以在服务端使用。
+
+2)EXPDP和IMPDP是服务端的工具程序,他们只能在ORACLE服务端使用,不能在客户端使用。速度比较快
+
+3)IMP只适用于EXP导出文件,不适用于EXPDP导出文件;IMPDP只适用于EXPDP导出文件,而不适用于EXP导出文件。 
+
