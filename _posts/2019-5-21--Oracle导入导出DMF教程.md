@@ -134,3 +134,8 @@ exp weixin/weixin@localhost:1521/orcl buffer=64000 file=F:/weixin.dmp tables='AJ
 
 3)IMP只适用于EXP导出文件,不适用于EXPDP导出文件;IMPDP只适用于EXPDP导出文件,而不适用于EXP导出文件。 
 
+
+
+查看当前服务名：SQL> show parameter service_name
+
+修改服务名：SQL> alter system set service_names='orcl' scope=both;
